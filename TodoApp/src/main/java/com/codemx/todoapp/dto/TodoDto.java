@@ -16,7 +16,7 @@ public class TodoDto {
     @Schema(
             description = "ID of the todo"
     )
-    @NotEmpty(message = "ID  can not be a nulll or empty")
+   // @NotEmpty(message = "ID  can not be a nulll or empty")
     private Long id;
 
     @Schema(

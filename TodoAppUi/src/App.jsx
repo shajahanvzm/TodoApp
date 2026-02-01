@@ -25,12 +25,12 @@ function App() {
   const header = ({ title }) => <h1>Welcome to the App : {title} </h1>;
   const user = { name: "Shajahan", age: 25, location: "India" };
   return (
-    <>
+    <div className="container">
       <Header title="Test App" />
       <User user={user} />
 
       <Footer title="wwww.codemx.com" />
-    </>
+    </div>
   );
 }
 

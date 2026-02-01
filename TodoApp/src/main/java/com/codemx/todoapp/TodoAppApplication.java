@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+//@RestController
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
 @OpenAPIDefinition(
         info = @Info(
@@ -40,9 +40,5 @@ public class TodoAppApplication {
         SpringApplication.run(TodoAppApplication.class, args);
     }
 
-    @GetMapping
-    public String index() {
-        return "Website of " + appName +" is up!";
-    }
 
 }

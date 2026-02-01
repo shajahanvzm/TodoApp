@@ -28,6 +28,7 @@ import java.util.List;
         name = "CRUD Rest API for Todos  application",
         description = "CRUD Rest API forT odos application"
 )
+@CrossOrigin(value ="http://localhost:5173")
 public class TodoController {
 
     private  TodoService todoService;
